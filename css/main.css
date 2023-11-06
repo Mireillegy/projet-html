@@ -24,10 +24,10 @@ h1,h2,h3,p,ul{ /* contexte de balises ayant les mêmes props */
 :root{
     --theme-bg-color:#2b2a33;
     --theme-text-color: #fff;
-    --theme-link-color: #ccc;
+    --theme-link-color: #141414;
     --theme-header-bg: rgba(0, 150, 136,1.0);
-    --theme-btn-primary: #ccc;
-    --theme-btn-secondary: #fafafafa;
+    --theme-btn-primary: rgb(9, 132, 225);
+    --theme-btn-secondary: #cccc;
 }
 button{
     padding: 0;
@@ -40,6 +40,14 @@ a{
     color: var(--theme-link-color);
 }
 /* theme css */
+.btn-theme-g{
+    display: inline-block;
+    width: 20rem; /* 200px */
+    line-height: 3rem;
+    background-color: var(--theme-btn-secondary);
+    text-align: center;
+    color: var(--theme-link-color);
+}
 
 header > h1{
     background-color: var(--theme-header-bg)
