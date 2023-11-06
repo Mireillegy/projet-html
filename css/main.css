@@ -37,8 +37,7 @@ button{
 }
 a{
     text-decoration: none;
-    color: rgb(121, 98, 235);
-    
+    color: var(--theme-link-color);
 }
 /* theme css */
 
